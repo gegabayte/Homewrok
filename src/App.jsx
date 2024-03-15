@@ -6,10 +6,12 @@ function App() {
   const [name, setName] = useState('');
   const [todos, setTodo] = useState(JSON.parse(localStorage.getItem('todos')))
   function handlebtn () {
-    alert('Rostan ham ushbu malumotni ochirmohchimisiz')
+    confirm('Rostan ham ushbu malumotni ochirmohchimisiz');
+    
   }
   function handlebtnn () {
-    alert('Rostan ham ushbu malumotni tahrilamohchimisiz')
+    confirm('Rostan ham ushbu malumotni tahrilamohchimisiz');
+    
   }
   function handleClick(e) {
     e.preventDefault();

@@ -25,16 +25,15 @@ form button {
     background: blue;
     color: white;
     cursor: pointer;
-    border-color: blue;
+    border: none;
     transition: all 0.5s;
     border-radius: 15px !important;
     position: relative;
-    top: -39px;
+    top: -37px;
     left: 465px;
     border-radius: 7px;
 }
 form button:hover {
-    border: 1px solid blue;
     background: transparent;
     color: black;
     padding: 10px;
