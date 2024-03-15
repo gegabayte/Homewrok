@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    box-shadow: 1px 2px 2px lightgray, -1px -2px 2px lightgray;
+    padding: 10px;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+form input {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 1px 2px 2px lightgray, -1px -2px 2px lightgray;
+    border-radius: 15px;
+}
+
+form button {
+    width: 20%;
+    padding: 10px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border-color: blue;
+    transition: all 0.5s;
+    border-radius: 15px !important;
+    position: relative;
+    top: -39px;
+    left: 465px;
+    border-radius: 7px;
+}
+form button:hover {
+    border: 1px solid blue;
+    background: transparent;
+    color: black;
+    padding: 10px;
+}
+.todo__item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    background: rgb(233, 231, 231);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 2px lightgray, -1px -2px 2px lightgray;
+}
+.block1 {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    gap: 10px;
+    
+}
+.block1 p {
+    width: 279px;
+}
+.todo__item .edit {
+    background: aqua;
+    border: none;
+}
+.todo__item .edit:hover {
+    border: none;
+    background: aqua;
+}
+.todo__item .delete {
+    border: none;
+    background: red;
+}
+.todo__item .delete:hover {
+    border: none;
+    background: red;
+}
+
+.actions button {
+    width: 20%;
+    padding: 10px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border-color: blue;
+    transition: all 0.5s;
+    margin-left: 15px;
+    width: 99px;
+    border-radius: 8px;
+}
+.actions button:hover {
+    border: 1px solid blue;
+    background: transparent;
+    color: black;
+    padding: 10px;
+}
